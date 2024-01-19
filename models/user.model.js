@@ -9,7 +9,8 @@ const userSchema = new mongoose.Schema({
         type: Boolean,
         default: false 
     },
-    email: String
+    email: String,
+    admin:[]
 });
 // mật khẩu tài khoản để làm sau
 
